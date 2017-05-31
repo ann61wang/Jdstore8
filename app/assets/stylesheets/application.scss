@@ -17,3 +17,47 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
+ .jumbotron {
+  background-image:url('http://oon3erbcp.bkt.clouddn.com/tu-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+
+.title {
+  font-family: "Helvetica Neue", "Microsoft Yahei", 字体;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.navbar-default {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+html {
+   position: relative;
+   min-height: 100%;
+ }
+
+ body {
+   /* Margin bottom by footer height */
+   margin-bottom: 100px;
+ }
+
+ .footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   /* Set the fixed height of the footer here */
+   height: 100px;
+   background-color: #686868;
+   margin: 0 -15px;
+
+   p {
+      color: white;
+     margin-top: 30px;
+   }
+  }
