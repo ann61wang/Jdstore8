@@ -19,10 +19,11 @@
  @import "font-awesome";
 
  .jumbotron {
-  background-image:url('http://oon3erbcp.bkt.clouddn.com/tu-1.jpg');
+  background-image:url('end.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 60px;
+  margin-bottom: 0;
 }
 
 .title {
@@ -52,12 +53,80 @@ html {
    bottom: 0;
    width: 100%;
    /* Set the fixed height of the footer here */
-   height: 100px;
+   height: 150px;
    background-color: #686868;
    margin: 0 -15px;
 
    p {
       color: white;
-     margin-top: 30px;
+     margin-top: 65px;
    }
   }
+
+  /*5种背景颜色*/
+.bg-color1 {
+  background: #FFFFFF;
+}
+
+.bg-color2 {
+  background: #C0C0C0;
+}
+
+.bg-color3 {
+  background: #B0B0B0;
+}
+
+.bg-color4 {
+  background: #A0A0A0;
+}
+
+.bg-color5 {
+  background: #909090;
+}
+
+.bg-color6 {
+  background: #C0C0C0;
+}
+
+.bg-color7 {
+  background: #B0B0B0;
+}
+
+.bg-color8 {
+  background: #A0A0A0;
+}
+
+.bg-color9 {
+  background: #909090;
+}
+
+
+/*商品详情*/
+.productDecription {
+	width: 100%;
+  text-align: center;
+	margin: 20px auto;
+  line-height: 20px;
+}
+
+.productDecription-menuList {
+	height: 20px;
+}
+
+.productDecription-menuList-item {
+	float: left;
+	width: 25%;
+	height: 35px;
+}
+
+.productDecription-content {
+	width: 100%;
+  height: 550px;
+  margin: 0;
+}
+
+.productDecription-content-item {
+  display: none;
+  width: 100%;
+  height: 550px;
+}
