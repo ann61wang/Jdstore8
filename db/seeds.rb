@@ -11,3 +11,6 @@ u.password = "111111"
 u.password_confirmation = "111111"
 u.is_admin = true
 u.save
+
+Category.create(name: "安静空间")
+Category.create(name: "高效空间")
