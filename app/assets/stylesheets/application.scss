@@ -57,6 +57,14 @@ html {
    background-color: #686868;
    margin: 0 -15px;
 
+   span {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 24px;
+    line-height: 23px;
+  }
+
    p {
       color: white;
      margin-top: 65px;
