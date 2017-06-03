@@ -2,6 +2,7 @@
 <div class="pull-right" style="padding-bottom: 20px;">
   <%= link_to("新增产品", new_admin_product_path, class: "btn btn-primary btn-sm") %>
 </div>
+
 <table class="table table-bordered">
   <thead>
     <tr>
@@ -41,3 +42,7 @@
     <% end %>
   </tbody>
 </table>
+
+<div class="text-center col-md-12 pagination">
+  <%= will_paginate @products, renderer: BootstrapPagination::Rails %>
+</div>

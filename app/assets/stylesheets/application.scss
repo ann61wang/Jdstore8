@@ -264,3 +264,8 @@ html {
   width: 108px;
   height: 42px
 }
+
+.pagination>li>a, .pagination>li>span {
+  border-radius: 50% !important;
+  margin: 0 5px;
+}
