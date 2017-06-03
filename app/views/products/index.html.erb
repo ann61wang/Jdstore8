@@ -1,12 +1,15 @@
 <div class="menu bg-color10">
-  <div class="menuList">
-    <div class="menuList-item bg-color2"></div>
-    <div class="menuList-item bg-color3"></div>
-    <div class="menuList-item bg-color4"></div>
-    <div class="menuList-item bg-color5"></div>
-  </div>
+  <ul class="menuList">
+    <li class="menuList-item bg-color11">
+      <%= link_to("首页", products_path)%>
+    </li>
+    <% Category.all.each do |category| %>
+    <li class="menuList-item bg-color12">
+      <%= link_to category.name, products_path(category: category.name), class: "link" %>
+    </li>
+    <% end %>
+  </ul>
 </div>
-
 
 <div class="row">
   <% @products.each do |product| %>
